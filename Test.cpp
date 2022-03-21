@@ -9,6 +9,7 @@ using namespace std;
 Notebook notebook;
 Direction hor = Direction::Horizontal;
 Direction ver = Direction::Vertical;
+const string data="abcd";
 
 TEST_CASE("check valid position in notebook"){
     // for write function
